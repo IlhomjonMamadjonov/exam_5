@@ -45,7 +45,9 @@ class _SecondPageState extends State<SecondPage> {
           Icon(
             Icons.notifications_none,
             color: Colors.black,
-          )
+          ),
+          SizedBox(width: 5,),
+
         ],
         title: Text(
           "Cleaning Services",
